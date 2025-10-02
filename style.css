@@ -1,0 +1,35 @@
+/* Reset */
+* {margin:0;padding:0;box-sizing:border-box;}
+body {font-family: Arial, sans-serif; background:#fafafa; color:#333;}
+
+/* Navbar */
+.navbar {
+  background:#fff; border-bottom:1px solid #ddd;
+  padding:10px 20px; display:flex; justify-content:space-between; align-items:center;
+}
+.logo {font-size:24px; color:#333;}
+.navbar a {margin-left:15px; text-decoration:none; color:#333; font-weight:bold;}
+.navbar a:hover {color:#0095f6;}
+
+/* Login Page */
+.login-body {display:flex; justify-content:center; align-items:center; height:100vh;}
+.login-container {background:#fff; padding:40px; border:1px solid #ddd; border-radius:8px; text-align:center; width:300px;}
+.login-form input {width:100%; padding:10px; margin:10px 0; border:1px solid #ccc; border-radius:4px;}
+.login-form button {width:100%; padding:10px; background:#0095f6; color:#fff; border:none; border-radius:4px; cursor:pointer;}
+.login-form button:hover {background:#0078d4;}
+.signup-text {margin-top:10px;}
+.signup-text a {color:#0095f6; text-decoration:none;}
+
+/* Feed */
+.feed {width:90%; max-width:600px; margin:20px auto;}
+.post {background:#fff; border:1px solid #ddd; margin-bottom:20px; border-radius:8px; overflow:hidden;}
+.post img {width:100%; display:block;}
+.post h3 {padding:10px; font-size:16px;}
+.caption {padding:0 10px 10px;}
+
+/* Profile */
+.profile {width:90%; max-width:800px; margin:20px auto;}
+.profile-header {display:flex; align-items:center; margin-bottom:20px;}
+.profile-pic {width:100px; height:100px; border-radius:50%; margin-right:20px;}
+.post-grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:5px;}
+.post-grid img {width:100%; aspect-ratio:1/1; object-fit:cover;}
